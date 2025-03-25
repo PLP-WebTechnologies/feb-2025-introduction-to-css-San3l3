@@ -1,0 +1,70 @@
+/* style.css */
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif; /* Set a default font */
+  background-color: #f4f4f9; /* Set background color */
+  color: #333; /* Set text color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for elements with the 'container' class */
+.container {
+  width: 80%;
+  margin: 20px auto; /* Center the container with a margin */
+  padding: 20px;
+  background-color: #fff; /* White background for content */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Heading Styling */
+h1 {
+  color: #2c3e50; /* Dark blue color */
+  font-size: 2.5em; /* Larger heading font size */
+  text-align: center; /* Center-align the heading */
+  margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
+/* Styling for the ID 'main-content' */
+#main-content {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #ecf0f1; /* Light gray background */
+  border: 1px solid #bdc3c7; /* Light border color */
+  border-radius: 5px;
+}
+
+/* Styling for paragraph elements */
+p {
+  line-height: 1.6; /* Increase line height for readability */
+  font-size: 1.1em; /* Slightly larger text */
+  margin-bottom: 20px; /* Space between paragraphs */
+}
+
+/* Button Styling using a class */
+.btn {
+  display: inline-block;
+  background-color: #3498db; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding for button */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded button corners */
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
+
+/* Styling for a link with the 'special-link' class */
+.special-link {
+  color: #e74c3c; /* Red color for links */
+  font-weight: bold; /* Bold text */
+  text-decoration: none;
+}
+
+.special-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
